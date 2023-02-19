@@ -1,6 +1,5 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,12 +7,12 @@ body {
   font-family: "Outfit", sans-serif;
 }
 .content-wrapper {
-  max-width: 310px;
+  max-width: 19.8rem;
 }
 
 .qr {
-  width: 320px;
-  height: 320px;
+  width: 20rem;
+  height: 20rem;
   border-radius: 16px;
 }
 
@@ -25,7 +24,7 @@ body {
 
 .description {
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1rem;
   text-align: center;
   color: gray;
 }
@@ -34,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px;
+  padding: 1.5rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 24px;
   box-shadow: 0 4px 8px 0px rgba(0,0,0,0.2);
